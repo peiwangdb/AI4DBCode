@@ -17,7 +17,7 @@ from DQN import DQN,ENV
 from TreeLSTM import SPINN
 
 
-print("init... \n")
+# print("init... \n")
 
 config = Config()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -46,7 +46,7 @@ pgrunner = PGRunner(config.dbName,config.userName,config.password,config.ip,conf
 
 DQN = DQN(policy_net,target_net,db_info,pgrunner,device)
 
-print("\ninit ended. \n")
+# print("\ninit ended. \n")
 
 
 def k_fold(input_list,k,ix = 0):
@@ -110,9 +110,9 @@ def resample_sql(sql_list):
                 reward_sum += mrc
                 break
     import random
-    print(rewardsP)
+    #print(rewardsP)
     res_sql = []
-    print(mes/len(sql_list))
+    #print(mes/len(sql_list))
     for idx in range(len(sql_list)):
         rd = random.random()*reward_sum
         for ts in range(len(sql_list)):
@@ -126,10 +126,10 @@ def train(trainSet,validateSet):
     trainSet_temp = trainSet
     losses = []
     startTime = time.time()
-    print_every = 20
+    print_every = 200
     TARGET_UPDATE = 3
     #for i_episode in range(0,10000):
-    for i_episode in range(0,100):
+    for i_episode in range(0,10000):
         if i_episode % 200 == 100:
             trainSet = resample_sql(trainSet_temp)
         #     sql = random.sample(train_list_back,1)[0][0]
@@ -137,10 +137,10 @@ def train(trainSet,validateSet):
         pg_cost = sqlt.getDPlantecy()
         env = ENV(sqlt,db_info,pgrunner,device)
 
-        print(i_episode, "episode now.")
-        print(sqlt.filename)
-        print("pg-cost:", pg_cost)
-        print(env.sel.join_candidate)
+        # print(i_episode, "episode now.")
+        # print(sqlt.filename)
+        # print("pg-cost:", pg_cost)
+        # print(env.sel.join_candidate)
 
         previous_state_list = []
         action_this_epi = []
@@ -202,7 +202,7 @@ def train(trainSet,validateSet):
                 loss = DQN.optimize_model()
                 losses.append(loss)
                 if ((i_episode + 1)%print_every==0):
-                    print(np.mean(losses))
+                    print("mean loss", np.mean(losses))
                     print("######################Epoch",i_episode//print_every,pg_cost)
                     val_value = DQN.validate(validateSet)
                     print("time",time.time()-startTime)
