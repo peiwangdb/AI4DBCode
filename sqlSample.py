@@ -7,10 +7,11 @@ import torch.nn as nn
 from itertools import count
 import numpy as np
 
+from psqlparse import parse_dict
+
 tree_lstm_memory = {}
 class JoinTree:
     def __init__(self,sqlt,db_info,pgRunner,device):
-        from psqlparse import parse_dict
         global tree_lstm_memory
         tree_lstm_memory  ={}
         self.sqlt = sqlt
@@ -40,7 +41,6 @@ class JoinTree:
         self.total = 0
         self.left_aliasname = {}
         self.right_aliasname = {}
-
         self.table_fea_set = {}
         for aliasname in self.aliasnames_root_set:
             self.table_fea_set[aliasname] = [0.0]*max_column_in_table*2
@@ -95,7 +95,6 @@ class JoinTree:
                     self.aliasnames_join_set[aliasname] = set()
                 self.aliasnames_join_set[aliasname].add(y[0])
 
-
         predice_list_dict={}
         for table in self.db_info.tables:
             predice_list_dict[table.name] = [0] * len(table.column2idx)
@@ -130,6 +129,7 @@ class JoinTree:
                 self.aliasnames_join_set[aliasname].add(y[0])
 
         self.total = 0
+
     def findFather(self,node_name):
         fa_name = node_name
         while  fa_name in self.aliasnames_fa:
@@ -158,6 +158,7 @@ class JoinTree:
             self.aliasnames_root_set.remove(aliasname_right_fa)
 
         self.total += 1
+
     def recTable(self,node):
         if isinstance(node,int):
             res =  "("
@@ -198,8 +199,8 @@ class JoinTree:
             return res
         else:
             return str(self.aliasname2fromtable[node])
-    def encode_tree_regular(self,model, node_idx):
 
+    def encode_tree_regular(self,model, node_idx):
         def get_inputX(node):
             left_aliasname = self.left_aliasname[node]
             right_aliasname = self.right_aliasname[node]
@@ -223,15 +224,17 @@ class JoinTree:
             return res
         encoding, _ = encode_node(node_idx)
         return encoding
-    def encode_tree_fold(self,fold, node_idx):
+
+    def encode_tree_fold(self, fold, node_idx):
+
         def get_inputX(node):
             left_aliasname = self.left_aliasname[node]
             right_aliasname = self.right_aliasname[node]
             left_emb,c1 =  fold.add('leaf',self.db_info.name2idx[self.aliasname2fullname[left_aliasname]]+25,self.table_fea_set[left_aliasname]).split(2)
             right_emb,c2 = fold.add('leaf',self.db_info.name2idx[self.aliasname2fullname[right_aliasname]]+25,self.table_fea_set[right_aliasname]).split(2)
             return fold.add('inputX',left_emb,right_emb)
-        def encode_node(node):
 
+        def encode_node(node):
             if isinstance(node,int):
                 left_h, left_c = encode_node(self.left_son[node])
                 right_h, right_c = encode_node(self.right_son[node])
@@ -240,8 +243,10 @@ class JoinTree:
             else:
                 return fold.add('leaf',self.db_info.name2idx[self.aliasname2fullname[node]],self.table_fea_set[node]).split(2)
             return None
+
         encoding, _ = encode_node(node_idx)
         return encoding
+
     def toSql(self,):
         root = self.total - 1
         res = "select "+",\n".join([str(x) for x in self.target_table_list])+"\n"

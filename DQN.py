@@ -1,4 +1,3 @@
-
 import math
 import random
 import torchfold
@@ -14,7 +13,7 @@ from itertools import count
 
 class ENV(object):
     def __init__(self,sql,db_info,pgrunner,device):
-        self.sel = JoinTree(sql,db_info,pgrunner,device )
+        self.sel = JoinTree(sql,db_info,pgrunner,device)
         self.sql = sql
         self.hashs = ""
         self.table_set = set([])
@@ -46,9 +45,7 @@ class ENV(object):
                 tree_state.append(self.sel.encode_tree_fold(fold,idx))
             #         res = torch.cat(tree_state,dim = 0)
         return tree_state
-        return fold.add('logits',tree_state,self.sel.join_matrix)
-
-
+        #return fold.add('logits',tree_state,self.sel.join_matrix)
 
     def takeAction(self,left,right):
         self.sel.joinTables(left,right)
@@ -139,7 +136,6 @@ class DQN:
         self.device = device
         self.steps_done = 0
     def select_action(self, env, need_random = True):
-
         sample = random.random()
         if need_random:
             eps_threshold = self.EPS_END + (self.EPS_START - self.EPS_END) * \
@@ -178,6 +174,7 @@ class DQN:
                     break
         lr = len(rewards)
         from math import e
+        print("validate result:")
         print("MRC",sum(rewards)/lr,"GMRL",e**(mes/lr))
         return sum(rewards)/lr
 
@@ -189,7 +186,8 @@ class DQN:
         next_value_list = []
         if (len(samples)==0):
             return
-        fold = torchfold.Fold(cuda=True)
+        # fold = torchfold.Fold(cuda=True)
+        fold = torchfold.Fold(cuda=False)
         nowL = []
         for one_sample in samples:
             nowList = one_sample.env.selectValueFold(fold)
