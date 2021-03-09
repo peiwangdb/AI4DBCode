@@ -1,0 +1,1106 @@
+Queries are loaded
+Training data: 101 in total.
+Test data: 12 in total.
+
+Train start ...
+
+6.1342688190937045
+######################Epoch 0 4629.32
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 6056.89
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 820136.08
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 68.22
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4732.09
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 6213.09
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 6058.42
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 23678.42
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 101141.63
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 87053.42
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 7744.0
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 10672.96
+validate result:
+MRC 93.32621029100392 GMRL 10.797064902398752 
+
+
+time 104.4224271774292
+~~~~~~~~~~~~~~
+
+
+4.112464294731617
+######################Epoch 1 29.07
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 57.32
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 820136.08
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 131.45
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4731.58
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 227.76
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 52.84
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 101141.63
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 87050.3
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 854.31
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 1.5639896392656614 GMRL 1.3891735809560777 
+
+
+time 200.11587405204773
+~~~~~~~~~~~~~~
+
+
+3.2085843284924827
+######################Epoch 2 24990.69
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 508004.32
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 124.81
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4731.58
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 148.68
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 53.68
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.26
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 6732.38
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 3.1702349878856366 GMRL 1.4403897195166122 
+
+
+time 315.6452169418335
+~~~~~~~~~~~~~~
+
+
+2.610016606114805
+######################Epoch 3 1549.07
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 508004.32
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 144.09
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.71
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 282.54
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 63.24
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.26
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 387.96
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 516.59
+validate result:
+MRC 1.4391935922681423 GMRL 1.2855651197373315 
+
+
+time 436.5467851161957
+~~~~~~~~~~~~~~
+
+
+2.217646971642971
+######################Epoch 4 581.92
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 508029.46
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 131.45
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4732.09
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 282.37
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 62.16
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.26
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 273.61
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 516.57
+validate result:
+MRC 1.3808971162467734 GMRL 1.2374123801629806 
+
+
+time 532.1573438644409
+~~~~~~~~~~~~~~
+
+
+1.927962678472201
+######################Epoch 5 4629.32
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 508004.32
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 68.78
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4731.58
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 148.58
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.63
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.26
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 348.47
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 516.59
+validate result:
+MRC 1.1043761349847545 GMRL 1.071845648956719 
+
+
+time 637.6528117656708
+~~~~~~~~~~~~~~
+
+
+1.716799074320921
+######################Epoch 6 538.77
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 31.59
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 508004.32
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 61.57
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 128.96
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.36
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 383.93
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 1.0364670504928262 GMRL 1.0169686448255455 
+
+
+time 748.6313827037811
+~~~~~~~~~~~~~~
+
+
+1.5472923123696818
+######################Epoch 7 692.99
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 508004.32
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 75.43
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4774.45
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 128.95
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.63
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 98600.1
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 387.96
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 1.0544540563899016 GMRL 1.0303033766646645 
+
+
+time 850.6457245349884
+~~~~~~~~~~~~~~
+
+
+1.4024012053923474
+######################Epoch 8 734355.51
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507613.25
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 68.78
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4774.45
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 128.93
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.35
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 348.47
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 630.63
+validate result:
+MRC 1.1163965780901257 GMRL 1.0769466471568505 
+
+
+time 958.4921765327454
+~~~~~~~~~~~~~~
+
+
+1.2859737086817622
+######################Epoch 9 356232.46
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 68.78
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4778.81
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 147.19
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 30.94
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.26
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 6838.25
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 3.0524919329991413 GMRL 1.3107836038957128 
+
+
+time 1056.858636379242
+~~~~~~~~~~~~~~
+
+
+1.1809818282503297
+######################Epoch 10 381575.91
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 128.93
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.21
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 0.987117237765538 GMRL 0.9748201815348524 
+
+
+time 1150.6721549034119
+~~~~~~~~~~~~~~
+
+
+1.0992397673722978
+######################Epoch 11 294.84
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507584.68
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.71
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 148.58
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.21
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 273.61
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 1.0051051044089003 GMRL 0.9870250324045683 
+
+
+time 1249.4201154708862
+~~~~~~~~~~~~~~
+
+
+1.0305014721777004
+######################Epoch 12 623161.33
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 61.57
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4725.14
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 128.93
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.63
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 348.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 516.57
+validate result:
+MRC 1.0755096255341263 GMRL 1.0493672674960395 
+
+
+time 1345.7171721458435
+~~~~~~~~~~~~~~
+
+
+0.9668716299959591
+######################Epoch 13 1038525.51
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507584.68
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 61.57
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 128.93
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.21
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.26
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 0.9947455749234044 GMRL 0.9814148664453194 
+
+
+time 1440.0565679073334
+~~~~~~~~~~~~~~
+
+
+0.91089441304033
+######################Epoch 14 52.87
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507559.06
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 57.7
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 127.54
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.38
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 273.61
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 0.9891489034564506 GMRL 0.9769508617930229 
+
+
+time 1534.3615260124207
+~~~~~~~~~~~~~~
+
+
+0.8628792229271494
+######################Epoch 15 4728.12
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 508004.32
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 110.25
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.37
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 273.61
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 0.9717453876283249 GMRL 0.9632621713011044 
+
+
+time 1627.8027262687683
+~~~~~~~~~~~~~~
+
+
+0.817837168689379
+######################Epoch 16 1569.6
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 820133.43
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 57.7
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 126.04
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.37
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 273.61
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 1.0391165135963896 GMRL 1.0157796577871083 
+
+
+time 1721.9483046531677
+~~~~~~~~~~~~~~
+
+
+0.782757091804718
+######################Epoch 17 37.23
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.28
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507613.25
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 128.93
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.37
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 105638.31
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 273.61
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 0.9926463129806057 GMRL 0.9800227163100717 
+
+
+time 1819.5007317066193
+~~~~~~~~~~~~~~
+
+
+0.750559586318896
+######################Epoch 18 79828.29
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.28
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507613.25
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 234.77
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 147.19
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 30.94
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 1.2823740646313808 GMRL 1.1077484642854662 
+
+
+time 1921.1370491981506
+~~~~~~~~~~~~~~
+
+
+0.7196677183369175
+######################Epoch 19 76.55
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.28
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507613.25
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 127.54
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 30.94
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 0.983743121329574 GMRL 0.9718297045977319 
+
+
+time 2030.3251643180847
+~~~~~~~~~~~~~~
+
+
+0.6903695646305347
+######################Epoch 20 734355.51
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.28
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507559.06
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 128.38
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 30.94
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 273.61
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 0.9857512654219468 GMRL 0.9736232795222376 
+
+
+time 2121.2329297065735
+~~~~~~~~~~~~~~
+
+
+0.663757425873879
+######################Epoch 21 289.91
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507559.06
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 61.57
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 129.88
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.37
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 98600.1
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 0.9958836093355358 GMRL 0.9823423371999497 
+
+
+time 2217.122476577759
+~~~~~~~~~~~~~~
+
+
+0.6378907672356329
+######################Epoch 22 25009.41
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507559.06
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 57.7
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4725.15
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 109.86
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.24
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 273.61
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 0.9730947000929747 GMRL 0.9644577834657092 
+
+
+time 2316.7796664237976
+~~~~~~~~~~~~~~
+
+
+0.6153150829917285
+######################Epoch 23 692.99
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507559.06
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 68.22
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4731.58
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 108.92
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 30.94
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99442.33
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 0.9868593520581226 GMRL 0.9753625076513597 
+
+
+time 2430.039769411087
+~~~~~~~~~~~~~~
+
+
+0.5947201354149729
+######################Epoch 24 623161.33
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 31.59
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507970.56
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4731.58
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 128.38
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.24
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 273.61
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 0.993289970044418 GMRL 0.9807082537258951 
+
+
+time 2532.6087765693665
+~~~~~~~~~~~~~~
+
+
+0.5771651719628762
+######################Epoch 25 76.55
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 508004.32
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4779.15
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 128.93
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.21
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 273.61
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 0.988614358724463 GMRL 0.9763560227861934 
+
+
+time 2625.470175266266
+~~~~~~~~~~~~~~
+
+
+0.5594736858271062
+######################Epoch 26 76.55
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 57.7
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 148.58
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.37
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 101144.56
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 1.0085226871957766 GMRL 0.990223860837225 
+
+
+time 2723.245128631592
+~~~~~~~~~~~~~~
+
+
+0.5435270455759018
+######################Epoch 27 1400455.36
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.28
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 128.93
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.37
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 105638.31
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 0.9914308642649852 GMRL 0.9788021496284152 
+
+
+time 2825.0545728206635
+~~~~~~~~~~~~~~
+
+
+0.5280389332100107
+######################Epoch 28 29.0
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.28
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507559.06
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 57.7
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4731.58
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 127.54
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.54
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 0.9875801453852385 GMRL 0.9753929894789434 
+
+
+time 2923.0606396198273
+~~~~~~~~~~~~~~
+
+
+0.5130787877844025
+######################Epoch 29 692.99
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507584.68
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 57.7
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 129.88
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 30.94
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 273.61
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 0.9894462048091771 GMRL 0.9766791816289995 
+
+
+time 3020.5609028339386
+~~~~~~~~~~~~~~
+
+
+0.4999142991826539
+######################Epoch 30 546260.51
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507559.06
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 57.7
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 126.04
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.55
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 273.61
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 0.9882841734492017 GMRL 0.9764276914947584 
+
+
+time 3113.248058080673
+~~~~~~~~~~~~~~
+
+
+0.48622558052738896
+######################Epoch 31 298.48
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.28
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507559.06
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 69.39
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 126.04
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 30.94
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 1.0030099338539837 GMRL 0.9878954630150357 
+
+
+time 3210.604511499405
+~~~~~~~~~~~~~~
+
+
+0.47398678377524694
+######################Epoch 32 94.93
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 31.59
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 69.39
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 128.38
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 30.94
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 87162.04
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 348.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 1.0363730763756152 GMRL 1.0175669276177848 
+
+
+time 3309.3252782821655
+~~~~~~~~~~~~~~
+
+
+0.4623110328436665
+######################Epoch 33 100986.0
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 31.59
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4774.79
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 110.25
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.24
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 87053.42
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 0.9768082327084553 GMRL 0.9679345370963419 
+
+
+time 3403.190068244934
+~~~~~~~~~~~~~~
+
+
+0.4514794053366142
+######################Epoch 34 52.87
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 31.59
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4731.58
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 107.92
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.26
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.26
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 0.9739951878747043 GMRL 0.965413460794117 
+
+
+time 3502.51291513443
+~~~~~~~~~~~~~~
+
+
+0.4415126295483464
+######################Epoch 35 100986.0
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 31.59
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.31
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4732.09
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 157.65
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.37
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 98600.1
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 1.017505255016267 GMRL 0.9959687346235093 
+
+
+time 3600.8054983615875
+~~~~~~~~~~~~~~
+
+
+0.4325914507646214
+######################Epoch 36 29.0
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 31.59
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507613.25
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.31
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4774.45
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 108.92
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.63
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 87053.42
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 623.85
+validate result:
+MRC 1.060195869638493 GMRL 1.0284913916546616 
+
+
+time 3695.6418857574463
+~~~~~~~~~~~~~~
+
+
+0.42295817292148347
+######################Epoch 37 604911.59
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 31.59
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 65.49
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4731.58
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 108.92
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 30.98
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 273.61
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 0.9898489443512878 GMRL 0.9789216862551297 
+
+
+time 3784.882451057434
+~~~~~~~~~~~~~~
+
+
+0.41345419040403497
+######################Epoch 38 734355.51
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 31.59
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4731.58
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 110.25
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.24
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 98600.1
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 273.61
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 0.9765615517496781 GMRL 0.9676583662774925 
+
+
+time 3877.243062019348
+~~~~~~~~~~~~~~
+
+
+0.4050138966522645
+######################Epoch 39 29.98
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4779.15
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 109.31
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.42
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 348.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 0.9949573734626447 GMRL 0.9831431697181604 
+
+
+time 3976.124552488327
+~~~~~~~~~~~~~~
+
+
+0.39739518355146597
+######################Epoch 40 27.33
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 57.7
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4731.58
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 108.92
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.37
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 98600.1
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 0.9707989365824518 GMRL 0.9623346458273861 
+
+
+time 4079.948574066162
+~~~~~~~~~~~~~~
+
+
+0.38887000036902636
+######################Epoch 41 546260.51
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 108.92
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.37
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 101144.56
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 87053.42
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 0.9708523217088024 GMRL 0.9625066761480612 
+
+
+time 4174.98649764061
+~~~~~~~~~~~~~~
+
+
+0.3813069172021608
+######################Epoch 42 110307.34
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.28
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4774.45
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 109.31
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.37
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 101144.56
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.26
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 0.9710255367815255 GMRL 0.9627105042499351 
+
+
+time 4271.004736423492
+~~~~~~~~~~~~~~
+
+
+0.3734647602068303
+######################Epoch 43 24668.04
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 820890.41
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 57.7
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 109.31
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.21
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 348.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 1.0465570598075737 GMRL 1.0232143957601398 
+
+
+time 4361.586990594864
+~~~~~~~~~~~~~~
+
+
+0.3661135210538697
+######################Epoch 44 98110.3
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507584.68
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 57.7
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 108.92
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.24
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 101144.56
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.25
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 0.9724873523190235 GMRL 0.9639354300923555 
+
+
+time 4454.5528445243835
+~~~~~~~~~~~~~~
+
+
+0.359916275865702
+######################Epoch 45 6183.08
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.28
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507584.68
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 57.7
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 127.54
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 30.94
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 87053.42
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 0.9860374110281785 GMRL 0.9739080825842013 
+
+
+time 4551.935314416885
+~~~~~~~~~~~~~~
+
+
+0.3544305721992389
+######################Epoch 46 1546.32
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 820889.87
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 109.31
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.26
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 101144.24
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 86924.26
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 1.0221504625049969 GMRL 1.0016645083393343 
+
+
+time 4644.194738149643
+~~~~~~~~~~~~~~
+
+
+0.3485911435435022
+######################Epoch 47 4629.32
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 820133.43
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 56.32
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 109.31
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 30.94
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 98600.1
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 87162.05
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 348.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 1.0436240490934974 GMRL 1.0204762005054333 
+
+
+time 4736.519152164459
+~~~~~~~~~~~~~~
+
+
+0.3430791304903865
+######################Epoch 48 623161.33
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 29.55
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507975.75
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 57.7
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 108.92
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.21
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 99443.48
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 87053.42
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 273.61
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 303.22
+validate result:
+MRC 0.9724314016481005 GMRL 0.9639355511366401 
+
+
+time 4833.529774904251
+~~~~~~~~~~~~~~
+
+
+0.3370307326248847
+######################Epoch 49 4637.25
+JOB-queries/14a.sql pg_latency; 29.11 rl_latency 31.59
+JOB-queries/10a.sql pg_latency; 507559.46 rl_latency 507584.68
+JOB-queries/6c.sql pg_latency; 2235.63 rl_latency 1950.51
+JOB-queries/13a.sql pg_latency; 52.87 rl_latency 69.39
+JOB-queries/11d.sql pg_latency; 5256.62 rl_latency 4728.69
+JOB-queries/26b.sql pg_latency; 94.33 rl_latency 110.25
+JOB-queries/28b.sql pg_latency; 30.77 rl_latency 31.24
+JOB-queries/4a.sql pg_latency; 40.79 rl_latency 26.67
+JOB-queries/8b.sql pg_latency; 98598.95 rl_latency 101144.56
+JOB-queries/5b.sql pg_latency; 86924.26 rl_latency 87053.42
+JOB-queries/25b.sql pg_latency; 269.56 rl_latency 271.37
+JOB-queries/25c.sql pg_latency; 321.9 rl_latency 300.97
+validate result:
+MRC 0.9980517551655312 GMRL 0.985447969180181 
+
+
+time 4930.746851205826
+~~~~~~~~~~~~~~
+
+
