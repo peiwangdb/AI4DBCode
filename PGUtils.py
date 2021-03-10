@@ -98,6 +98,7 @@ class PGRunner:
         cur.execute("set max_parallel_workers=1;")
         cur.execute("set max_parallel_workers_per_gather = 1;")
         cur.execute("set geqo_threshold = 20;")
+        cur.execute("SET statement_timeout =  100000;")
         cur.execute("EXPLAIN "+sqlwithplan)
 
         thisQueryCost = self.getCost(sql,sqlwithplan)
