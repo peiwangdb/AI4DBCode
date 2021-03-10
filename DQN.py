@@ -70,9 +70,14 @@ class ENV(object):
         return action_value_list
     def reward(self,):
         if self.sel.total+1 == len(self.sel.from_table_list):
-            return log( self.sel.plan2Cost())/log(1.5), True
+            return log(self.sel.plan2Cost())/log(1.5), True
         else:
             return 0,False
+    def reward_and_latecy(self,):
+        if self.sel.total+1 == len(self.sel.from_table_list):
+            return self.sel.plan2Cost(), log(self.sel.plan2Cost())/log(1.5), True
+        else:
+            return self.sel.toSql(),0,False
 
 
 
@@ -161,21 +166,29 @@ class DQN:
             env = ENV(sql,self.db_info,self.pgrunner,self.device)
 
             for t in count():
+                # print(t)
                 action_list, chosen_action,all_action = self.select_action(env,need_random=False)
 
                 left = chosen_action[0]
                 right = chosen_action[1]
                 env.takeAction(left,right)
 
-                reward, done = env.reward()
+                true_latency, reward, done = env.reward_and_latecy()
+                # print(true_latency)
                 if done:
                     rewards.append(np.exp(reward*log(1.5)-log(pg_cost)))
                     mes = mes + reward*log(1.5)-log(pg_cost)
+
+                    # print result of each test data
+                    print(sql.filename, "pg_latency;", pg_cost, "rl_latency", true_latency)
+                    # print(sql.sql)
+                    # print('\n')
                     break
+
         lr = len(rewards)
         from math import e
         print("validate result:")
-        print("MRC",sum(rewards)/lr,"GMRL",e**(mes/lr))
+        print("MRC",sum(rewards)/lr,"GMRL",e**(mes/lr), '\n\n')
         return sum(rewards)/lr
 
     def optimize_model(self,):
