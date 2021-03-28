@@ -2,7 +2,6 @@
 from JOBParser import TargetTable,FromTable,Comparison
 max_column_in_table = 15
 import torch
-import torch
 import torch.nn as nn
 from itertools import count
 import numpy as np
@@ -27,7 +26,13 @@ class JoinTree:
             self.aliasname2fromtable[table.getAliasName()] = table
             self.aliasname2fullname[table.getAliasName()] = table.getFullName()
         self.aliasnames = set(self.aliasname2fromtable.keys())
-        self.comparison_list =[Comparison(x) for x in parse_result["whereClause"]["BoolExpr"]["args"]]
+        if "A_Expr" in parse_result["whereClause"]:
+            tmp = parse_result["whereClause"]
+            parse_result["whereClause"] = {}
+            parse_result["whereClause"]["BoolExpr"] = {}
+            parse_result["whereClause"]["BoolExpr"]["args"] = [tmp]
+        self.comparison_list = [Comparison(x) for x in parse_result["whereClause"]["BoolExpr"]["args"]]
+
         self.db_info = db_info
         self.join_list = {}
         self.filter_list = {}

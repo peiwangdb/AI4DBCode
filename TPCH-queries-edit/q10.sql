@@ -18,8 +18,8 @@ from
 where
 	c.c_custkey = o.o_custkey
 	and l.l_orderkey = o.o_orderkey
---	and o_orderdate >= date '1994-01-01'
---	and o_orderdate < date '1994-01-01' + interval '3' month
+	and o.o_orderdate >= date '1994-01-01'
+	and o.o_orderdate < date '1994-01-01' + interval '3' month
 	and l.l_returnflag = 'R'
 	and c.c_nationkey = n.n_nationkey
 group by
