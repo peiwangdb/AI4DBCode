@@ -16,6 +16,62 @@ class JoinTree:
         self.sqlt = sqlt
         self.sql = self.sqlt.sql
         parse_result = parse_dict(self.sql)[0]["SelectStmt"]
+        alias_lst = []
+        for tbl in parse_result["targetList"]:
+            if len(tbl["ResTarget"]["val"]["ColumnRef"]["fields"])==1:
+                alias_out_st= tbl["ResTarget"]["val"]["ColumnRef"]["fields"][0]["String"]["str"]
+                alias_out_spt = alias_out_st.split("_")[0]
+                alias_add_t = {"String": {'str': alias_out_spt}}
+                tbl["ResTarget"]["val"]["ColumnRef"]["fields"].insert(0, alias_add_t)
+                alias_lst.append(alias_out_spt)
+        for tb in parse_result["whereClause"]["BoolExpr"]["args"]:
+            if "ColumnRef" in tb["A_Expr"]["lexpr"]:
+                if len(tb["A_Expr"]["lexpr"]["ColumnRef"]["fields"]) == 1:
+                    alias_out_sl = tb["A_Expr"]["lexpr"]["ColumnRef"]["fields"][0]["String"]["str"]
+                    alias_out_spl = alias_out_sl.split("_")[0]
+                    alias_add_l = {"String": {'str': alias_out_spl}}
+                    tb["A_Expr"]["lexpr"]["ColumnRef"]["fields"].insert(0,alias_add_l)
+                    alias_lst.append(alias_out_spl)
+            if "ColumnRef" in tb["A_Expr"]["rexpr"]:
+                if len(tb["A_Expr"]["rexpr"]["ColumnRef"]["fields"]) == 1:
+                    alias_out_sr = tb["A_Expr"]["rexpr"]["ColumnRef"]["fields"][0]["String"]["str"]
+                    alias_out_spr = alias_out_sr.split("_")[0]
+                    alias_add_r = {"String": {'str': alias_out_spr}}
+                    tb["A_Expr"]["rexpr"]["ColumnRef"]["fields"].insert(0, alias_add_r)
+                    alias_lst.append(alias_out_spr)
+        if "groupClause" in parse_result:
+            for tble in parse_result["groupClause"]:
+                if len(tble["ColumnRef"]["fields"])==1:
+                    alias_out_sg= tble["ColumnRef"]["fields"][0]["String"]["str"]
+                    alias_out_spg = alias_out_sg.split("_")[0]
+                    alias_add_g = {"String": {'str': alias_out_spg}}
+                    tble["ColumnRef"]["fields"].insert(0, alias_add_g)
+                    alias_lst.append(alias_out_spg)
+        if "sortClause" in parse_result:
+            for table in parse_result["sortClause"]:
+                if len(table["SortBy"]["node"]["ColumnRef"]["fields"])==1:
+                    alias_out_ss= table["SortBy"]["node"]["ColumnRef"]["fields"][0]["String"]["str"]
+                    alias_out_sps = alias_out_ss.split("_")[0]
+                    alias_add_s = {"String": {'str': alias_out_sps}}
+                    table["SortBy"]["node"]["ColumnRef"]["fields"].insert(0, alias_add_s)
+                    alias_lst.append(alias_out_sps)
+        alias_sel = list(set(alias_lst))
+        for t in parse_result["fromClause"]:
+            if "alias" not in t["RangeVar"]:
+                if t["RangeVar"]['relname'][0] in alias_sel:
+                    alias_sel.remove(t["RangeVar"]['relname'][0])
+                    t["RangeVar"]["alias"] = {}
+                    t["RangeVar"]["alias"]["Alias"] = {}
+                    t["RangeVar"]["alias"]["Alias"]["aliasname"] = {}
+                    t["RangeVar"]["alias"]["Alias"]["aliasname"] = t["RangeVar"]['relname'][0]
+                else:
+                    l_match_alias = [i for i in alias_sel if t["RangeVar"]['relname'][0] in i]
+                    if len(l_match_alias) == 1:
+                        alias_sel.remove(l_match_alias[0])
+                        t["RangeVar"]["alias"] = {}
+                        t["RangeVar"]["alias"]["Alias"] = {}
+                        t["RangeVar"]["alias"]["Alias"]["aliasname"] = {}
+                        t["RangeVar"]["alias"]["Alias"]["aliasname"] = l_match_alias[0]
         self.target_table_list = [TargetTable(x["ResTarget"]) for x in parse_result["targetList"]]
         self.from_table_list = [FromTable(x["RangeVar"]) for x in parse_result["fromClause"]]
         self.aliasname2fullname = {}
@@ -58,7 +114,7 @@ class JoinTree:
         for idx in range(len(self.db_info)):
             self.join_matrix.append([0]*len(self.db_info))
         for comparison in self.comparison_list:
-            if len(comparison.aliasname_list) == 2:
+            if len(comparison.aliasname_list) == 2: ### why two
                 if not comparison.aliasname_list[0] in self.join_list:
                     self.join_list[comparison.aliasname_list[0]] = []
                 if not comparison.aliasname_list[1] in self.join_list:
@@ -117,6 +173,7 @@ class JoinTree:
         self.predice_feature = np.asarray(self.predice_feature).reshape(1,-1)
         self.join_matrix = torch.tensor(np.asarray(self.join_matrix).reshape(1,-1),device = self.device,dtype = torch.float32)
 
+    ###not used
     def resetJoin(self):
         self.aliasnames_fa = {}
         self.left_son = {}
